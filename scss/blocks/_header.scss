@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для відділення від решти сайту */
+}
+
+.header__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.header__logo-accent {
+  color: #000; /* Можна змінити на інший колір, якщо потрібно виділити */
+}
+
+.header__nav {
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-item {
+  font-size: 16px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.header__link:hover {
+  color: #007bff; /* Колір при наведенні */
+}
+
+.header__action {
+  margin-left: 20px;
+}
+
+.header__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.header__button:hover {
+  background-color: #444; /* Зміна кольору кнопки при наведенні */
+}

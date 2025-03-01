@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*null style*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для відділення від решти сайту */
+}
+
+.header__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.header__logo-accent {
+  color: #000; /* Можна змінити на інший колір, якщо потрібно виділити */
+}
+
+.header__nav {
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-item {
+  font-size: 16px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.header__link:hover {
+  color: #007bff; /* Колір при наведенні */
+}
+
+.header__action {
+  margin-left: 20px;
+}
+
+.header__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.header__button:hover {
+  background-color: #444; /* Зміна кольору кнопки при наведенні */
+}
+
+[class*=__container] {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+  background-color: #ece7e4;
+}
+
+.main__container {
+  position: relative;
+}
+
+.main_image_wrapper {
+  position: absolute;
+  overflow: visible;
+  top: 0px; /*егулюйте значення за потреби */
+  left: -50px; /* Регулюйте значення за потреби */
+  width: 120%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+}
+
+.main__content {
+  margin-right: 100px;
+}
+.main__content .main__title {
+  color: #645c55;
+  margin-top: 135px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main__content .main__subtitle {
+  color: #1b1a1a;
+  font-size: 64px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.main__content .main__description {
+  color: #403e3b;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.main__content .main__read-more {
+  color: #1b1a1a;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.400000006px;
+  text-transform: none;
+}
