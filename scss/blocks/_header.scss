@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  background-color: #fff;
+  background-color: $background;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для відділення від решти сайту */
 }
 
@@ -21,11 +21,11 @@ body {
 .header__logo {
   font-size: 24px;
   font-weight: bold;
-  color: #000;
+  color: $allText;
 }
 
 .header__logo-accent {
-  color: #000; /* Можна змінити на інший колір, якщо потрібно виділити */
+  color: $allText; /* Можна змінити на інший колір, якщо потрібно виділити */
 }
 
 .header__nav {
@@ -48,12 +48,12 @@ body {
 
 .header__link {
   text-decoration: none;
-  color: #000;
+  color: $allText;
   transition: color 0.3s;
 }
 
 .header__link:hover {
-  color: #007bff; /* Колір при наведенні */
+  color: $hoverHeaderText; /* Колір при наведенні */
 }
 
 .header__action {
@@ -63,8 +63,8 @@ body {
 .header__button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
+  background-color: $backgroundColor;
+  color: $color;
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
@@ -72,5 +72,5 @@ body {
 }
 
 .header__button:hover {
-  background-color: #444; /* Зміна кольору кнопки при наведенні */
+  background-color: $hoverButtonHeader; /* Зміна кольору кнопки при наведенні */
 }

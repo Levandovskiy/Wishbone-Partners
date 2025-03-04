@@ -95,7 +95,7 @@ body {
 }
 
 .header {
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для відділення від решти сайту */
 }
 
@@ -112,11 +112,11 @@ body {
 .header__logo {
   font-size: 24px;
   font-weight: bold;
-  color: #000;
+  color: #1b1a1a;
 }
 
 .header__logo-accent {
-  color: #000; /* Можна змінити на інший колір, якщо потрібно виділити */
+  color: #1b1a1a; /* Можна змінити на інший колір, якщо потрібно виділити */
 }
 
 .header__nav {
@@ -139,7 +139,7 @@ body {
 
 .header__link {
   text-decoration: none;
-  color: #000;
+  color: #1b1a1a;
   transition: color 0.3s;
 }
 
@@ -154,7 +154,7 @@ body {
 .header__button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000;
+  background-color: #1b1a1a;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
