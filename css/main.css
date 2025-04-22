@@ -283,3 +283,75 @@ body {
 .main__heading-hause__img {
   width: 1400px;
 }
+
+.main__howe-we-do__item {
+  color: #645c55;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 100px;
+  text-align: center;
+}
+.main__howe-we-do__howe-we {
+  color: #1b1a1a;
+  font-size: 39px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 13px;
+}
+.main__howe-we-do__all-product {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  text-align: center;
+}
+.main__howe-we-do__product {
+  width: 100%;
+  max-width: 379px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.main__howe-we-do__h3 {
+  color: #403e3b;
+  font-size: 17px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: none;
+  padding-top: 15px;
+}
+.main__howe-we-do__p {
+  color: #645c55;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main__marble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.main__marble__marble-img {
+  width: 100px;
+}
