@@ -393,3 +393,13 @@ body {
   text-transform: none;
   max-width: 500px;
 }
+.main__hapy-kustomers__products {
+  display: flex;
+  justify-content: space-around;
+}
+.main__hapy-kustomers__partner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-content: end;
+}

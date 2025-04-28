@@ -269,4 +269,17 @@
     text-transform: none;
     max-width: 500px;
   }
+
+  &__products {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__partner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+    justify-content: end;
+  }
 }
