@@ -452,4 +452,42 @@ body {
   margin-bottom: 0;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 113px;
+}
+.main__featured__title-sub {
+  color: #645c55;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 15px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+.main__featured__project-all {
+  margin-top: 40px;
+}
+.main__featured__img1, .main__featured__img2, .main__featured__img3 {
+  margin-right: 10px;
+}
+.main__featured__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.main__featured__my-button {
+  padding: 10px 20px;
+  background-color: #1b1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.main__featured__my-button:hover {
+  background-color: #444;
+}
+.main__featured__my-button:active {
+  transform: scale(0.98);
 }

@@ -342,5 +342,53 @@
     margin-bottom: 0;
     letter-spacing: 0;
     text-transform: none;
+
+    margin-top: 113px;
+  }
+
+  &__title-sub {
+    color: #645c55;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 15px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &__project-all {
+    margin-top: 40px;
+  }
+
+  &__img1,
+  &__img2,
+  &__img3 {
+    margin-right: 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  &__my-button {
+    padding: 10px 20px;
+    background-color: $backgroundColor;
+    color: $color;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $hoverButtonHeader;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
   }
 }
