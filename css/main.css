@@ -376,12 +376,9 @@ body {
 .main__hapy-kustomers__subtitle {
   color: #fff;
   font-size: 32px;
-  margin-top: 0;
-  text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 38px;
-  text-transform: none;
 }
 .main__hapy-kustomers__text {
   color: #ece7e4;
@@ -443,23 +440,16 @@ body {
 .main__featured__title {
   color: #1b1a1a;
   font-size: 39px;
-  font-style: normal;
-  margin-top: 0;
   text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 42px;
-  margin-bottom: 0;
-  letter-spacing: 0;
-  text-transform: none;
   margin-top: 113px;
 }
 .main__featured__title-sub {
   color: #645c55;
   font-size: 24px;
-  font-style: normal;
   margin-top: 15px;
-  text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 30px;
@@ -490,4 +480,32 @@ body {
 }
 .main__featured__my-button:active {
   transform: scale(0.98);
+}
+
+.main__Meet-our-team__section-all {
+  display: flex;
+}
+.main__Meet-our-team__title {
+  color: #403e3b;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 38px;
+}
+.main__Meet-our-team__titleSub {
+  color: #645c55;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 400px;
+}
+.main__Meet-our-team__teem {
+  color: #1b1a1a;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.400000006px;
+  margin-top: 30px;
 }

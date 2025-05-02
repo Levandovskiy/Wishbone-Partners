@@ -248,12 +248,9 @@
     color: #fff;
     font-size: 32px;
 
-    margin-top: 0;
-    text-align: left;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 38px;
-    text-transform: none;
   }
 
   &__text {
@@ -333,15 +330,11 @@
   &__title {
     color: #1b1a1a;
     font-size: 39px;
-    font-style: normal;
-    margin-top: 0;
+
     text-align: left;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 42px;
-    margin-bottom: 0;
-    letter-spacing: 0;
-    text-transform: none;
 
     margin-top: 113px;
   }
@@ -349,9 +342,7 @@
   &__title-sub {
     color: #645c55;
     font-size: 24px;
-    font-style: normal;
     margin-top: 15px;
-    text-align: left;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 30px;
@@ -390,5 +381,39 @@
     &:active {
       transform: scale(0.98);
     }
+  }
+}
+
+.main__Meet-our-team {
+  &__section-all {
+    display: flex;
+  }
+
+  &__title {
+    color: #403e3b;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 38px;
+  }
+
+  &__titleSub {
+    color: #645c55;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 400px;
+  }
+
+  &__teem {
+    color: #1b1a1a;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+
+    margin-top: 30px;
   }
 }
