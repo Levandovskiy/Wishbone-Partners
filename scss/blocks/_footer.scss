@@ -8,4 +8,26 @@
 
     padding-top: 60px;
   }
+
+  &__together {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  &__twit {
+    margin-right: 50px;
+  }
+
+  &__facebook {
+    margin-right: 10px;
+  }
+
+  &__instag {
+    margin-right: 10px;
+  }
 }
