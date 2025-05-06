@@ -166,6 +166,45 @@ body {
   background-color: #444; /* Зміна кольору кнопки при наведенні */
 }
 
+.header__toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .header__container {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .header__toggle {
+    display: block;
+    order: 2;
+  }
+  .header__nav {
+    display: none;
+    width: 100%;
+    order: 3;
+  }
+  .header__nav.header__nav--active {
+    display: block;
+    margin-top: 20px;
+  }
+  .header__menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .header__action {
+    width: 100%;
+    margin-top: 10px;
+    order: 4;
+  }
+}
 .footer__img {
   width: 100%;
   height: auto;
