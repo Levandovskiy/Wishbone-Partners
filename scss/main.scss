@@ -48,6 +48,21 @@
   height: auto;
   display: flex;
   padding: 20px;
+
+  @media (max-width: 1550px) {
+    display: block;
+  }
+}
+
+.main_img {
+  @media (max-width: 1550px) {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .main__content {

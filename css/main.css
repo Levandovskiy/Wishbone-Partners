@@ -265,6 +265,22 @@ body {
   display: flex;
   padding: 20px;
 }
+@media (max-width: 1550px) {
+  .main_image_wrapper {
+    display: block;
+  }
+}
+
+@media (max-width: 1550px) {
+  .main_img {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 .main__content {
   margin-right: 100px;
