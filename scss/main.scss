@@ -36,6 +36,10 @@
 
 .main__container {
   position: relative;
+
+  @media (max-width: 1500px) {
+    margin: 0 20px;
+  }
 }
 
 .main_image_wrapper {
@@ -59,9 +63,8 @@
     margin-top: 50px;
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+
+    margin-right: 10px;
   }
 }
 
@@ -86,6 +89,13 @@
     font-weight: 400;
     line-height: 70px;
     margin-bottom: 20px;
+
+    @media (max-width: 1300px) {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      line-height: 60px;
+      font-size: 44px;
+    }
   }
 
   .main__description {
@@ -117,6 +127,10 @@
     display: flex;
     align-items: start;
     justify-content: space-around;
+
+    @media (max-width: 800px) {
+      display: block;
+    }
   }
   &__title {
     color: #403e3b;
@@ -142,6 +156,11 @@
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 0;
+
+    @media (max-width: 800px) {
+      margin-top: 20px;
+      font-size: 14px;
+    }
   }
 }
 
@@ -153,6 +172,13 @@
 
   &__img {
     width: 1400px;
+
+    @media (max-width: 1500px) {
+      max-width: 100%;
+      height: auto;
+
+      margin-right: 10px;
+    }
   }
 }
 
@@ -185,6 +211,10 @@
     text-transform: none;
 
     margin-top: 13px;
+
+    @media (max-width: 700px) {
+      font-size: 30px;
+    }
   }
 
   &__all-product {
@@ -192,6 +222,10 @@
     justify-content: center;
     padding-top: 40px;
     text-align: center;
+
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__product {
@@ -202,6 +236,10 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 20px;
+
+    @media (max-width: 1200px) {
+      margin-top: 20px;
+    }
   }
 
   &__h3 {
@@ -237,6 +275,13 @@
 
   &__marble-img {
     width: 100px;
+
+    @media (max-width: 1500px) {
+      max-width: 100%;
+      height: auto;
+
+      margin-right: 10px;
+    }
   }
 }
 
@@ -246,6 +291,11 @@
   height: 410px;
 
   margin: 0 auto;
+  @media (max-width: 1500px) {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+  }
 
   &__title {
     color: #ece7e4;
@@ -285,6 +335,10 @@
   &__products {
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: 950px) {
+      display: block;
+    }
   }
 
   &__partner {
@@ -338,6 +392,14 @@
     position: absolute;
 
     padding-right: 800px;
+  }
+
+  &__img {
+    @media (max-width: 1500px) {
+      max-width: 100%;
+      height: auto;
+      padding-bottom: 70px;
+    }
   }
 }
 

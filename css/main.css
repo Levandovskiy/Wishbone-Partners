@@ -254,6 +254,11 @@ body {
 .main__container {
   position: relative;
 }
+@media (max-width: 1500px) {
+  .main__container {
+    margin: 0 20px;
+  }
+}
 
 .main_image_wrapper {
   position: relative;
@@ -276,9 +281,7 @@ body {
     margin-top: 50px;
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 
@@ -303,6 +306,14 @@ body {
   font-weight: 400;
   line-height: 70px;
   margin-bottom: 20px;
+}
+@media (max-width: 1300px) {
+  .main__content .main__subtitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 60px;
+    font-size: 44px;
+  }
 }
 .main__content .main__description {
   color: #403e3b;
@@ -331,6 +342,11 @@ body {
   align-items: start;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  .main__our-firm__all {
+    display: block;
+  }
+}
 .main__our-firm__title {
   color: #403e3b;
   font-size: 32px;
@@ -354,6 +370,12 @@ body {
   line-height: 24px;
   margin-bottom: 0;
 }
+@media (max-width: 800px) {
+  .main__our-firm__text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
 
 .main__heading-hause {
   margin-top: 100px;
@@ -363,6 +385,13 @@ body {
 }
 .main__heading-hause__img {
   width: 1400px;
+}
+@media (max-width: 1500px) {
+  .main__heading-hause__img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
 }
 
 .main__howe-we-do__item {
@@ -391,11 +420,21 @@ body {
   text-transform: none;
   margin-top: 13px;
 }
+@media (max-width: 700px) {
+  .main__howe-we-do__howe-we {
+    font-size: 30px;
+  }
+}
 .main__howe-we-do__all-product {
   display: flex;
   justify-content: center;
   padding-top: 40px;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .main__howe-we-do__all-product {
+    flex-wrap: wrap;
+  }
 }
 .main__howe-we-do__product {
   width: 100%;
@@ -405,6 +444,11 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-right: 20px;
+}
+@media (max-width: 1200px) {
+  .main__howe-we-do__product {
+    margin-top: 20px;
+  }
 }
 .main__howe-we-do__h3 {
   color: #403e3b;
@@ -436,12 +480,26 @@ body {
 .main__marble__marble-img {
   width: 100px;
 }
+@media (max-width: 1500px) {
+  .main__marble__marble-img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+}
 
 .main__hapy-kustomers {
   background-color: #403e3b;
   width: 1440px;
   height: 410px;
   margin: 0 auto;
+}
+@media (max-width: 1500px) {
+  .main__hapy-kustomers {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+  }
 }
 .main__hapy-kustomers__title {
   color: #ece7e4;
@@ -474,6 +532,11 @@ body {
 .main__hapy-kustomers__products {
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 950px) {
+  .main__hapy-kustomers__products {
+    display: block;
+  }
 }
 .main__hapy-kustomers__partner {
   display: grid;
@@ -516,6 +579,13 @@ body {
   line-height: 24px;
   position: absolute;
   padding-right: 800px;
+}
+@media (max-width: 1500px) {
+  .main__swrling__img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+  }
 }
 
 .main__featured__title {
