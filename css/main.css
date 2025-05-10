@@ -631,6 +631,13 @@ body {
 .main__featured__img1, .main__featured__img2, .main__featured__img3 {
   margin-right: 10px;
 }
+@media (max-width: 1500px) {
+  .main__featured__img1, .main__featured__img2, .main__featured__img3 {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+}
 .main__featured__wrapper {
   display: flex;
   justify-content: center;
