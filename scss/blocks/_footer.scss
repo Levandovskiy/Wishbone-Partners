@@ -12,11 +12,19 @@
   &__together {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 500px) {
+      display: block;
+    }
   }
 
   &__social {
     padding-top: 60px;
     padding-bottom: 50px;
+
+    @media (max-width: 500px) {
+      padding-top: 30px;
+    }
   }
 
   &__twit {
