@@ -241,11 +241,23 @@ body {
 .footer__twit {
   margin-right: 50px;
 }
+.footer__twit:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+}
 .footer__facebook {
   margin-right: 10px;
 }
+.footer__facebook:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+}
 .footer__instag {
   margin-right: 10px;
+}
+.footer__instag:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
 }
 
 [class*=__container] {

@@ -29,13 +29,28 @@
 
   &__twit {
     margin-right: 50px;
+
+    &:hover {
+      background: #2980b9;
+      transform: translateY(-3px);
+    }
   }
 
   &__facebook {
     margin-right: 10px;
+
+    &:hover {
+      background: #2980b9;
+      transform: translateY(-3px);
+    }
   }
 
   &__instag {
     margin-right: 10px;
+
+    &:hover {
+      background: #2980b9;
+      transform: translateY(-3px);
+    }
   }
 }
