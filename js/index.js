@@ -16,3 +16,16 @@ document.addEventListener("keydown", (event) => {
     nav.classList.remove("header__nav--active");
   }
 });
+
+// Добавляем обработчик клика вне меню
+document.addEventListener("click", (event) => {
+  const nav = document.querySelector(".header__nav");
+  const toggle = document.querySelector(".header__toggle");
+  if (
+    !nav.contains(event.target) && // Клик не внутри меню
+    !toggle.contains(event.target) && // Клик не по кнопке
+    nav.classList.contains("header__nav--active") // Меню активно
+  ) {
+    nav.classList.remove("header__nav--active");
+  }
+});
